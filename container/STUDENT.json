@@ -1,0 +1,19 @@
+{
+  "first_name": "Ilaha",
+  "last_name": "Shafizada",
+  "team": "ilaha-shafizada",
+  "model": {
+    "framework": "yolo26",
+    "variant": "yolo26m",
+    "imgsz": 640,
+    "epochs_total": 60,
+    "tricks": [
+      "larger_backbone",
+      "strong_augmentation",
+      "cos_lr",
+      "weight_decay",
+      "early_stopping"
+    ]
+  },
+  "notes": "Improved YOLO26 cat detector exported to ONNX and packaged for leaderboard inference."
+}
